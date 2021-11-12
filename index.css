@@ -1,0 +1,26 @@
+body{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(90,77,167,1) 35%, rgba(0,212,255,1) 100%);
+    color:white;
+}
+input{
+    background: transparent;
+    border: 1px solid white;
+    margin: 5px;
+}
+input::placeholder { color: white }
+li{
+    list-style: none;
+    display: inline-block;
+}
+.active{
+    background: gray;
+}
+.disabled{
+    display: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+
+}
